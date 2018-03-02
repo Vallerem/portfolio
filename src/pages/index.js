@@ -126,22 +126,38 @@ class HomeIndex extends React.Component {
           <section id="one">
             <header className="major">
               <h2>
-                Ipsum lorem dolor aliquam ante commodo<br />
-                magna sed accumsan arcu neque.
+                <a
+                  className="title-intro"
+                  target="_blank"
+                  href="https://www.youtube.com/watch?v=rEq1Z0bjdwc"
+                >
+                  Hello there!{' '}
+                </a>
               </h2>
             </header>
             <p>
-              Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc
-              nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae
-              lobortis tortor primis integer massa adipiscing id nisi accumsan
-              pellentesque commodo blandit enim arcu non at amet id arcu magna.
-              Accumsan orci faucibus id eu lorem semper nunc nisi lorem
-              vulputate lorem neque cubilia.
+              I'm Manu, I'm from Barcelona and I love exploring and broadening
+              my horizons, doing things in high quality and staying tuned with
+              the latest technologies. I’m an enthusiast of music, clean code
+              and every kind of knowledge. Currently studiyng multimedia
+              engineering and trying to survive the JavaScript fatigue learning
+              something new everyday.
+            </p>
+            <p>
+              I'm currently working as a software developer. Mainly with
+              React/Redux, Ruby on Rails, Node.js, Jenkins, Docker, AWS and other
+              front/back/DevOps technologies. I'm working in my own projects with
+              Angular, React, Vue and Python, also some machine learning when I feel
+              brave enough.
             </p>
             <ul className="actions">
               <li>
-                <a href="#" className="button">
-                  Learn More
+                <a
+                  href="/Valle_Manuel_Amaro_CV.pdf"
+                  target="_blank"
+                  className="button"
+                >
+                  Curriculum Vitae
                 </a>
               </li>
             </ul>
@@ -150,27 +166,30 @@ class HomeIndex extends React.Component {
           <section id="two">
             <h2>Recent Work</h2>
 
-            <h3>content</h3>
-
-            <ul className="actions">
-              <li>
-                <a href="#" className="button">
-                  Full Portfolio
-                </a>
-              </li>
-            </ul>
+            <h3>building...</h3>
           </section>
 
           <section id="three">
             <h2>Get In Touch</h2>
             <p>
-              Accumsan pellentesque commodo blandit enim arcu non at amet id
-              arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi
-              lorem vulputate lorem neque lorem ipsum dolor.
+              Please contact me through{' '}
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/manuel-amaro-valle"
+              >
+                {' '}
+                Linkedin{' '}
+              </a>{' '}
+              or send me a mail:{' '}
+              <a href="mailto:manuelvalle@vallerem.com">
+                manuelvalle@vallerem.com
+              </a>
             </p>
+
+            <p>Have a nice day! 😃</p>
             <div className="copyright-mobile">
-            <p>&copy; 2018 Manuel Amaro Valle Redondo</p>
-          </div>
+              <p>&copy; 2018 Manuel Amaro Valle Redondo</p>
+            </div>
           </section>
         </div>
       </div>
