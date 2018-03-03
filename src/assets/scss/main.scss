@@ -1373,7 +1373,8 @@ body.is-touch {
 .copyright-mobile {
   text-align: center;
   p {
-		color: black;
+    color: black;
+    font-size: 14px;
     font-weight: bold;
   }
   @media (min-width: 1024px) {

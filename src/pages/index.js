@@ -131,7 +131,7 @@ class HomeIndex extends React.Component {
                   target="_blank"
                   href="https://www.youtube.com/watch?v=rEq1Z0bjdwc"
                 >
-                  Hello there!{' '}
+                  Hello there!
                 </a>
               </h2>
             </header>
@@ -139,16 +139,16 @@ class HomeIndex extends React.Component {
               I'm Manu, I'm from Barcelona and I love exploring and broadening
               my horizons, doing things in high quality and staying tuned with
               the latest technologies. I’m an enthusiast of music, clean code
-              and every kind of knowledge. Currently studiyng multimedia
+              and every kind of knowledge. Currently studying multimedia
               engineering and trying to survive the JavaScript fatigue learning
               something new everyday.
             </p>
             <p>
               I'm currently working as a software developer. Mainly with
-              React/Redux, Ruby on Rails, Node.js, Jenkins, Docker, AWS and other
-              front/back/DevOps technologies. I'm working in my own projects with
-              Angular, React, Vue and Python, also some machine learning when I feel
-              brave enough.
+              React/Redux, Ruby on Rails, Node.js, Jenkins, Docker, AWS and
+              other front/back/DevOps technologies. I'm working in my own
+              projects with Angular, React, Vue and Python, also some machine
+              learning and BI when I feel brave enough.
             </p>
             <ul className="actions">
               <li>
@@ -172,15 +172,15 @@ class HomeIndex extends React.Component {
           <section id="three">
             <h2>Get In Touch</h2>
             <p>
-              Please contact me through{' '}
+              Please contact me through
               <a
                 target="_blank"
                 href="https://www.linkedin.com/in/manuel-amaro-valle"
               >
                 {' '}
-                Linkedin{' '}
+                Linkedin
               </a>{' '}
-              or send me a mail:{' '}
+              or send me an email:{' '}
               <a href="mailto:manuelvalle@vallerem.com">
                 manuelvalle@vallerem.com
               </a>
