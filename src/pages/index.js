@@ -2,7 +2,13 @@ import React from 'react'
 import Link from 'gatsby-link'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
-// import Lightbox from 'react-images'
+import Card from '../components/Card'
+
+import deesa from '../assets/images/deesa.png'
+import hiddo from '../assets/images/hiddo.png'
+import meme from '../assets/images/meme.png'
+
+import 'bootstrap/dist/css/bootstrap.css'
 
 import thumb01 from '../assets/images/thumbs/01.jpg'
 import thumb02 from '../assets/images/thumbs/02.jpg'
@@ -150,12 +156,12 @@ class HomeIndex extends React.Component {
               projects with Angular, React, Vue and Python, also some machine
               learning and BI when I feel brave enough.
             </p>
-            <ul className="actions">
+            <ul style={{ marginTop: 40 }} className="actions">
               <li>
                 <a
                   href="/Valle_Manuel_Amaro_CV.pdf"
                   target="_blank"
-                  className="button"
+                  className="button link-main"
                 >
                   Curriculum Vitae
                 </a>
@@ -165,23 +171,60 @@ class HomeIndex extends React.Component {
 
           <section id="two">
             <h2>Recent Work</h2>
+            <div className="row">
+              <div className="col-12 col-sm-12 col-xl-6">
+                <Card img={deesa} link="https://deesa.herokuapp.com/" />
+              </div>
+              <div className="col-12 col-sm-12 col-xl-6">
+                <Card img={hiddo} link="https://hiddo.herokuapp.com/" />
+              </div>
+              <div className="col-12 col-sm-12 col-xl-6">
+                <Card
+                  img={meme}
+                  link="https://vallerem.github.io/memerized-game/memerized.html"
+                />
+              </div>
 
-            <h3>building...</h3>
+              <div
+                // id={window.innerWidth > 989 ? "link-100" : null }
+                id="link-100"
+                className="col-12 col-sm-12 col-xl-6"
+              >
+                <ul
+                  className="actions"
+                >
+                  <li>
+                    <a
+                      href="https://github.com/Vallerem"
+                      target="_blank"
+                      className="button link-main"
+                    >
+                      See them in GitHub
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </section>
 
           <section id="three">
             <h2>Get In Touch</h2>
             <p>
-              Please contact me through
+              Please contact me through{' '}
               <a
+                className="link-main"
+                style={{ color: '#69BC9F' }}
                 target="_blank"
                 href="https://www.linkedin.com/in/manuel-amaro-valle"
               >
-                {' '}
                 Linkedin
               </a>{' '}
               or send me an email:{' '}
-              <a href="mailto:manuelvalle@vallerem.com">
+              <a
+                className="link-main"
+                style={{ color: '#69BC9F' }}
+                href="mailto:manuelvalle@vallerem.com"
+              >
                 manuelvalle@vallerem.com
               </a>
             </p>
