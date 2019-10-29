@@ -159,7 +159,7 @@ class HomeIndex extends React.Component {
             <ul style={{ marginTop: 40 }} className="actions">
               <li>
                 <a
-                  href="/CV-Europass-20181223-ValleRedondo-EN.pdf"
+                  href="/CV-ValleRedondo-EN.pdf"
                   target="_blank"
                   className="button link-main"
                 >
