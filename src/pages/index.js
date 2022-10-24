@@ -124,7 +124,7 @@ class HomeIndex extends React.Component {
           <title>Manuel Amaro Valle</title>
           <meta
             name="description"
-            content="Manue Amaro Valle Redondo, microwebsite/portfolio"
+            content="Manuel Amaro Valle Redondo, microwebsite/portfolio"
           />
         </Helmet>
 
